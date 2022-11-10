@@ -1,6 +1,6 @@
 ### Conceptual Exercise ###
 
-__Answer the following questions below:
+__Answer the following questions below:__
 
 * What are important differences between Python and JavaScript?
 
