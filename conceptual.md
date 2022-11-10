@@ -1,11 +1,11 @@
 ##### Conceptual Exercise
 
-# Answer the following questions below:
+## Answer the following questions below:
 
-* What are important differences between Python and JavaScript?*
-__We use JavaScript for client-side, and use Python for the service-side.__
+# What are important differences between Python and JavaScript?*
+*__We use JavaScript for client-side, and use Python for the service-side.__*
 
-**Given a dictionary like ``{"a": 1, "b": 2}``: , list two ways you can try to get a missing key (like "c") without your programming crashing.**
+# Given a dictionary like ``{"a": 1, "b": 2}``: , list two ways you can try to get a missing key (like "c") without your programming crashing.
 
 _Method1: We use get(x, default) function to return the default value for the key "c"._
     print({"a": 1, "b": 2}.get("c", 3)) //3"
