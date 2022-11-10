@@ -2,7 +2,7 @@
 
 __Answer the following questions below:
 
-* __What are important differences between Python and JavaScript?
+* _What are important differences between Python and JavaScript?
 
 *We use JavaScript for client-side, and use Python for the service-side.*
 
