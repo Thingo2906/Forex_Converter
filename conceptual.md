@@ -33,14 +33,14 @@ __Answer the following questions below:__
 >_We collect data from the query string in Flask using 'flask.request.args.get()'._
 
 * How do you collect data from the body of the request using Flask?
-*Use request.form to get the key/value pairs in the body, from a HTML post form, or JavaScript request that isn't JSON encoded*
+>_Use request.form to get the key/value pairs in the body, from a HTML post form, or JavaScript request that isn't JSON encoded_
 
 * What is a cookie and what kinds of things are they commonly used for?
-*Cookies collect user data stored on the user's computer web browser.*
+>_Cookies collect user data stored on the user's computer web browser._
 
 
 * What is the session object in Flask?
-*Flask session are a "magic dictinary". Session contain information for the current browser.* 
+>_Flask session are a "magic dictinary". Session contain information for the current browser._ 
 
 * What does Flask's `jsonify()` do?
-*jsonify() is a helper method provided by Flask to properly return JSON data*
+>_jsonify() is a helper method provided by Flask to properly return JSON data_
