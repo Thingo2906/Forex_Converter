@@ -14,7 +14,7 @@ __Answer the following questions below:__
 > Method2_: Adding the value for c, so the dictionary will get new key_value and add it at the end of itself
      {"a": 1, "b" : 2}["c"]= 3;
   
-> * What is a unit test? 
+ * What is a unit test? 
 >> Unit Testing is the process of checking small pieces of code
 
 * What is an integration test?
