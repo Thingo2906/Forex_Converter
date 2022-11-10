@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/app.css">
+    <title>Form</title>
+</head>
+<body>
+     <h1>Forex Converter</h1>
+    
+     <form action="/conversion" method="POST">
+        <div>
+        {% for msg in get_flashed_messages() %}
+        <p>{{msg}}</p>
+        {%endfor%}
+        </div>
+        <p>
+            <label>Converting From
+            <input name ="convert_from" type ="text" required/>
+            </label>
+        </p>
+        <p>
+            <label>Converting To
+            <input name ="convert_to" type="text"required/>
+            </label>
+        </p>
+        <p>
+            <label>Amount</label>
+            <input name ="amount" type="number" required/>
+            </label>
+
+        </p>
+        <button>Convert</button>        
+     </form>
+    
+    
+</body>
+</html>
