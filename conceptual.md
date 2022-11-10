@@ -8,10 +8,10 @@ __Answer the following questions below:__
 
 * Given a dictionary like ``{"a": 1, "b": 2}``: , list two ways you can try to get a missing key (like "c") without your programming crashing.
 
-*Method1: We use get(x, default) function to return the default value for the key "c".*
+> Method1: We use get(x, default) function to return the default value for the key "c".
     print({"a": 1, "b": 2}.get("c", 3)) //3"
 
-*Method2_: Adding the value for c, so the dictionary will get new key_value and add it at the end of itself*
+> Method2_: Adding the value for c, so the dictionary will get new key_value and add it at the end of itself
      {"a": 1, "b" : 2}["c"]= 3;
   
 * What is a unit test? 
