@@ -1,18 +1,16 @@
 from decimal import Decimal, DecimalException
-
 from flask import Flask, flash, render_template, request, redirect
 from flask_debugtoolbar import DebugToolbarExtension
 from forex_python.converter import (CurrencyCodes, CurrencyRates,
                                     RatesNotAvailableError)
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "secret"
+app.config['SECRET_KEY'] = "sgvahdahj"
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 
 @app.route("/")
 def ask_questions():
     """Generate and show form to ask countries currencies."""
-
     return render_template("form.html")
 
 
