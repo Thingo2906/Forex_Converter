@@ -1,6 +1,6 @@
 ### Conceptual Exercise ###
 
-__Answer the following questions below:__
+#__Answer the following questions below:__#
 
 * What are important differences between Python and JavaScript?
 *We use JavaScript for client-side, and use Python for the service-side.*
