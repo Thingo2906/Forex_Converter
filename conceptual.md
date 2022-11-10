@@ -15,10 +15,10 @@ __Answer the following questions below:__
      {"a": 1, "b" : 2}["c"]= 3;
   
 * What is a unit test? 
-> Unit Testing is the process of checking small pieces of code*
+> Unit Testing is the process of checking small pieces of code
 
 * What is an integration test?
-*Integration test is testing multiple unit, and how they intergrate.*
+> Integration test is testing multiple unit, and how they intergrate.
 
 * What is the role of web application framework, like Flask?
 _Flask is a tool that is used in Python to help developer to create web server._ 
