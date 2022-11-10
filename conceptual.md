@@ -15,13 +15,13 @@ __Answer the following questions below:__
      {"a": 1, "b" : 2}["c"]= 3;
   
  * What is a unit test? 
->> Unit Testing is the process of checking small pieces of code
+>_Unit Testing is the process of checking small pieces of code
 
 * What is an integration test?
-> Integration test is testing multiple unit, and how they intergrate.
+>_Integration test is testing multiple unit, and how they intergrate.
 
 * What is the role of web application framework, like Flask?
-_Flask is a tool that is used in Python to help developer to create web server._ 
+>_Flask is a tool that is used in Python to help developer to create web server._ 
 
 * You can pass information to Flask either as a parameter in a route URL (like '/foods/pretzel') or using a URL query param (like 'foods?type=pretzel'). How might you choose which one is a better fit for an application?
 *If the application has to use POST request with form submission, we should use a URL query param to see which value is set in.*
