@@ -1,8 +1,8 @@
-### Conceptual Exercise
+### Conceptual Exercise ###
 
 ## Answer the following questions below:
 
-# What are important differences between Python and JavaScript?*
+# What are important differences between Python and JavaScript?
 *__We use JavaScript for client-side, and use Python for the service-side.__*
 
 # Given a dictionary like ``{"a": 1, "b": 2}``: , list two ways you can try to get a missing key (like "c") without your programming crashing.
