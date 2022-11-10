@@ -1,4 +1,4 @@
-##### Conceptual Exercise
+### Conceptual Exercise
 
 ## Answer the following questions below:
 
